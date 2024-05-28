@@ -9,7 +9,8 @@ https://docs.anaconda.com/free/miniconda/#quick-command-line-install
 conda create --name pytorchenv python=3.9
 conda activate pytorchenv
 ```
-3. Install PyTorch v2.3.0
+3. Install Dependencies\
+Pytorch 2.3\
 Mac
 ```
 conda install pytorch::pytorch torchvision torchaudio -c pytorch
@@ -18,11 +19,14 @@ Windows
 ```
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
+```
+conda install ipykernel matplotlib
+```
 4. Test Pytorch installation
 ```
 python test_pytorch.py
 ```
 5. Using a Conda Environment in Jupyter Notebook
-conda install ipykernel
+```
 python -m ipykernel install --user --name=pytorchenv
 ```

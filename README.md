@@ -9,8 +9,13 @@ https://docs.anaconda.com/free/miniconda/#quick-command-line-install
 conda create --name pytorchenv python=3.9
 conda activate pytorchenv
 ```
-3. Install Dependencies\
-Pytorch 2.3\
+3. Install Dependencies
+```
+conda install ipykernel matplotlib
+```
+Install PyTorch 2.30
+
+
 Mac
 ```
 conda install pytorch::pytorch torchvision torchaudio -c pytorch
@@ -18,9 +23,6 @@ conda install pytorch::pytorch torchvision torchaudio -c pytorch
 Windows
 ```
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
-```
-```
-conda install ipykernel matplotlib
 ```
 4. Test Pytorch installation
 ```

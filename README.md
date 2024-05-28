@@ -22,3 +22,7 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 python test_pytorch.py
 ```
+5. Using a Conda Environment in Jupyter Notebook
+conda install ipykernel
+python -m ipykernel install --user --name=pytorchenv
+```

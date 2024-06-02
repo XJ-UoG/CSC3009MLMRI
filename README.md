@@ -11,7 +11,7 @@ conda activate pytorchenv
 ```
 3. Install Dependencies
 ```
-conda install ipykernel matplotlib
+conda install ipykernel matplotlib seaborn
 ```
 Install PyTorch 2.30
 

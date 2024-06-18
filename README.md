@@ -12,6 +12,7 @@ conda activate pytorchenv
 3. Install Dependencies
 ```
 conda install ipykernel matplotlib seaborn scikit-learn
+pip install opencv-python
 ```
 Install PyTorch 2.30
 

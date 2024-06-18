@@ -11,7 +11,7 @@ conda activate pytorchenv
 ```
 3. Install Dependencies
 ```
-conda install ipykernel matplotlib seaborn
+conda install ipykernel matplotlib seaborn scikit-learn
 ```
 Install PyTorch 2.30
 
@@ -26,7 +26,7 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 ```
 4. Test Pytorch installation
 ```
-python test_pytorch.py
+python installation_test.py
 ```
 5. Using a Conda Environment in Jupyter Notebook
 ```

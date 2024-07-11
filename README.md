@@ -33,3 +33,6 @@ python installation_test.py
 ```
 python -m ipykernel install --user --name=pytorchenv
 ```
+
+
+1. Run Data_Preperation.ipynb to generate k_fold folders
